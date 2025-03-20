@@ -1,0 +1,44 @@
+#!/bin/bash
+#### This should be included in all scripts ###############
+## List file: fmt_xml
+#
+# Ensure that your XML file is properly formatted by checking the tags, closures, and overall structure.
+# Compress the XML file to facilitate its direct transmission to the message queue (MQ).
+# Additionally, maintain a version of the file in a well-formatted, readable style.
+# **Why should you use this approach?**
+# You can easily edit your XML file without worrying about its formatting. After
+# making your changes, run this script to convert your file into a neatly
+# formatted version and prepare it for direct sending to the MQ.
+#
+source libShare.sh
+shname=$(getShellName $BASH_SOURCE)
+showmessage()
+{
+  showMessage "$shname $1"
+}
+#### this should be included in all scripts ###############
+
+showmessage "INF Running Format XML file.."
+
+f=$1
+
+showmessage "INF Checking format error in the XML file $f"
+showmessage "INF Does not check against the xsd file"
+
+if [ "$f" == "" ];then
+  showmessage "ERR Please provide a file name."
+  exit
+fi
+
+xmllint --format $f > /tmp/ax14
+if [ $? -ne 0 ];then
+   showmessage "ERR error of XML format please fix it and try again.!!!!!!"
+   exit
+else
+   showmessage "INF Success !!"
+   mv /tmp/ax14 $f".beautify"
+   xmllint --format --compress $f > /tmp/ax15
+fi
+
+mv /tmp/ax15 $f
+## End of List file: fmt_xml
