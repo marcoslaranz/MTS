@@ -1,0 +1,124 @@
+#!/bin/bash
+## List file: libShare.sh
+#
+# To use this file add the follow line at start 
+# of your script
+#   source share.sh
+#
+
+getAreaName(){
+ echo `showarea | grep "Area name:" | awk -F: '{ print $2 }' | sed 's/ //g'`
+}
+
+isAreaLoad(){
+  echo $AREA_ROOT_DIR
+}
+
+
+isMTSDown(){
+  echo `ent p | awk '{ print $NF }'`
+}
+
+showMessage()
+{
+ msg=$1
+ shname=`echo $msg | awk '{ print $1 }'`
+ msg=`echo $msg | sed 's/'$shname'//g'`
+ dt=`date "+%d-%h-%C%y_%H:%M:%S"`
+ echo $dt"_"${BASH_LINENO[1]}"_"$shname: $msg
+}
+
+getShellName()
+{
+ #
+ # To call this function:
+ # getShellName $BASH_SOURCE
+ #
+ # shname=`echo $1 | sed 's/\.\///g'`
+ shname=`echo $1 | awk -F\/ '{ print $NF }'`
+ echo $shname
+}
+
+getLastTrn()
+{
+  msgp -n -a  > /tmp/lasta 2>&1
+  trn=`grep Last: /tmp/lasta | awk -F: '{ print $2 }' | sed 's/ //g'`
+  trn=`echo $trn | cut -c 10-`
+  trn=`expr $trn + 0`
+  echo $trn
+}
+
+getField(){
+ f=$1
+ TRN=$2
+ if [ ! -f /tmp/$TRN ];then
+   fo="getField:ERROR the file /tmp/$TRN was not find "
+ else
+   fo=`cat /tmp/$TRN | grep $f | head -1 | sed 's/'$f'//g' | sed 's/<//g'| sed 's/>//g' | sed 's/\///g' | sed 's/ //g'`
+ fi
+ echo $fo
+}
+
+setField(){
+ fn=$1    # Field name
+ fv=$2    # Field value
+ fi=$3    # Template file
+ step=$4  # Sequence file number.
+ step=`expr $step + 0`
+ fnU=`echo $fn | tr 'a-z' 'A-Z'`
+ sed 's/%'$fnU'%/'$fv'/g' $fi"_"$step".txt" > $fi"_"`expr $step + 1`".txt"
+ step=`expr $step + 1`
+ echo $step
+}
+
+cleanUp()
+{
+ ms=$1   # This can be sy or ak
+ step=$2
+ step=`expr $step + 0`
+ while [ $step != 0 ]
+ do
+   rm $ms"_"$step".txt"
+   step=`expr $step - 1`
+ done
+}
+
+
+prtline(){
+ l=$1
+ s=""
+ for ((i = 0; i < $l; i++))
+ do
+   s=$s"."
+ done
+ echo $s
+}
+
+prtRepeat(){
+  prtline 100
+  prtline 100
+}
+
+
+getLastTrnFmt()
+{
+  f=$1 # The f means format output format 1 only the last numbers and this is the default
+       # 2 means 99999999-99999999
+       # 3 means 9999999999999999
+
+  msgp -n -a  > /tmp/lasta 2>&1
+  trn=`grep Last: /tmp/lasta | awk -F: '{ print $2 }' | sed 's/ //g'`
+
+  if [ "$f" == "" ]||[ "$f" == "1" ];then
+     trn=`echo $trn | cut -c 10-`
+     trn=`expr $trn + 0`
+  elif [ "$f" == "2" ];then
+     trn=`echo $trn`
+  elif [ "$f" == "3" ];then
+     trn=`echo $trn | sed 's/-//g'`
+  else
+    trn="$f it is not recognized as option."
+  fi
+  echo $trn
+}
+## End of List file: libShare.sh
