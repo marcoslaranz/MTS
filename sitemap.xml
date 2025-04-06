@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+    <loc>https://github.com/marcoslaranz/MTS/wiki</loc>
+    <lastmod>2025-04-07T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://github.com/marcoslaranz/MTS/wiki/Installation</loc>
+    <lastmod>2025-04-07T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/activity</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/issues</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/pulls</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/actions</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/security</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/Installing%20MTS%20in%20a%20VirtualBox%20VM.docx</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/marcoslaranz/MTS/main/README.md</loc>
+    <lastmod>2025-04-07T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/Running%20MQ%20as%20a%20container.docx</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/Running%20RGW%20as%20a%20container.docx</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/add_tsi_route.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/ak_0.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/bkdb.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/chek_xml.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/clean_log_bk.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/convert.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/create_ora.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/everyday.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/fmt_xml.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/googlecfc9c4afc7a0f194.html</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/libShare_sh.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/load.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/load2.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/mq_clean_restart.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/mq_init.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/mq_rm.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/open_db.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/ora_rm.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/scp_cp.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/showLastTrn.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/sim_swf.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/snd_ak.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/snd_ak_sh.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/snd_ftr.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/snd_json.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/snd_swift.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/snd_swift_bnk.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/snd_xs002.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/snd_xs003.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/str_rgw.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/sy_0.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/sy_0_002.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/sy_0_003.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/sy_aa.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/updtrn.sh</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/blob/main/validationg_xsd.txt</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/releases</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/search?q=repo%3Amarcoslaranz%2FMTS++language%3AShell</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels?sort=name-asc</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels?sort=name-desc</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels?sort=count-desc</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels?sort=count-asc</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/bug</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/documentation</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/duplicate</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/enhancement</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/good%20first%20issue</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/help%20wanted</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/invalid</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/question</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/labels/wontfix</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/marcoslaranz/MTS/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
