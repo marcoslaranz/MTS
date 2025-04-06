@@ -43,9 +43,10 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://github.com/marcoslaranz/MTS/blob/main/README.md</loc>
-  <lastmod>2025-04-04T05:59:58+00:00</lastmod>
-  <priority>0.80</priority>
+    <loc>https://raw.githubusercontent.com/marcoslaranz/MTS/main/README.md</loc>
+    <lastmod>2025-04-07T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
 </url>
 <url>
   <loc>https://github.com/marcoslaranz/MTS/blob/main/Running%20MQ%20as%20a%20container.docx</loc>
