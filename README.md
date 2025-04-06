@@ -20,7 +20,7 @@ This repository contains all the scripts I use for testing MTS. I created these 
 ## Documentation
 For detailed instructions, usage examples, and troubleshooting, visit the [Wiki](https://github.com/marcoslaranz/MTS/wiki).
 
-- [Installation Guide](https://github.com/marcoslaranz/MTS/wiki/Installation)
+- [Installation Guide](https://github.com/marcoslaranz/MTS/blob/main/Installing%20MTS%20in%20a%20VirtualBox%20VM.md)
 - [Script Usage](https://github.com/marcoslaranz/MTS/wiki/Script-Usage)
 - [FAQ](https://github.com/marcoslaranz/MTS/wiki/FAQ)
 
