@@ -89,7 +89,7 @@ So on\...
 
 - **Configuring the network interface in Red Hat**
 
-\$ sudo vi /etc/sysconfig/network-scripts/ifcfg-enpleg
+\$ sudo vi /etc/sysconfig/network-scripts/ifcfg-enp0s8
 
 TYPE=Ethernet
 
