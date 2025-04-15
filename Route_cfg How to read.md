@@ -18,7 +18,8 @@ How to read:
 
 The file route.cfg is read and interpreted by the program RISK_MANAGER.
 
-How to read:
+## How to read:
+
  Like a book, there's no duplicate line from top to bottom and left to right; each column conveys a different meaning, though some columns are not used for routing transactions.
 
 ### Before you start:
@@ -88,10 +89,6 @@ The * means that anything is acceptable in that particular column.
 Columns:
 
 ![image](https://github.com/user-attachments/assets/fbc52d66-7acc-469c-977b-fa17bff821e3)
-
-
-
-
 
 **1a. column: Func** (Three uppercase letters)
 
