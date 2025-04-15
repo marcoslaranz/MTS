@@ -93,41 +93,61 @@ Columns:
 
 
 
-1a. column: Func (Three uppercase letters)
+**1a. column: Func** (Three uppercase letters)
+
 These functions are hardcoded into COBOL programs, which indicate what program requests the RISK manager to route the transaction, as displayed on the screen above the INQ. Depending on what the program is trying to execute, this can vary; for example, the example above requests to place a message in a queue, with the queue name at the end of the line. Some functions are also added as parameters of programs stored in the REMOTE RECORDS.
 Some examples of functions are:
-CAN = Cancel; if someone is using videoclient chooses CANCEL, a transaction
-CMS = Cash Management System
-DDA = Used to post message into mainframe 
-ENQ = Enqueue message
-ENT = From SOAP – SWDL program API or type into videoclient
-SWF = A transaction coming from SWIFT
-VFY = A transaction from an action in video client that must be sent to a “Verify Queue”.
 
-2a.  column: Src Code (Source Code)
+	CAN = Cancel; if someone is using videoclient chooses CANCEL, a transaction
+	CMS = Cash Management System
+	DDA = Used to post message into mainframe 
+	ENQ = Enqueue message
+	ENT = From SOAP – SWDL program API or type into videoclient
+	SWF = A transaction coming from SWIFT
+	VFY = A transaction from an action in video client that must be sent to a “Verify Queue”.
+
+**2a.  column: Src Code** (Source Code)
 
 The source code is defined in cfg_tab.dat. Your messages can come to MTS from many different sources, and this is used to organise the way MTS will treat each message. The source code can also be added as a parameter in the REMOTE RECORD. Some standard source codes are: SWF (when the message comes from SWIFT). 
+
 Some examples of sources are:
-ADM = Administrative messages
-BRN = Branches
-CAI = Calypso
-SWF = Coming from a source SWIFT
-3a. Column: Tran Type (Transaction type)
-4a. Column: Tran Type
-5a. Column: Msg Type
-6a. Column:  Val Dat
-7a. Column: REP
-8a. Column: Cdt Adv Type
-9a. Column: Num Pty
-10a. Column: Rsk Exc
-11a. Column: Bank Vfc Lim
-12a. Column: Acc Vfc Lim
-13a. Column: rep Vfc Lim
-14a. Column: vrs msg
-15a. Column: fplrls
-16a. Column: State
-17a. Column: Cmnd
-18a. Column: INTRTL (Intranet Runtime Library)
+
+	ADM = Administrative messages
+	BRN = Branches
+	CAI = Calypso
+	SWF = Coming from a source SWIFT
+**3a. Column: Tran Type** (Transaction type)
+
+**4a. Column: Tran Type**
+
+**5a. Column: Msg Type**
+
+**6a. Column:  Val Dat**
+
+**7a. Column: REP**
+
+**8a. Column: Cdt Adv Type**
+
+**9a. Column: Num Pty**
+
+**10a. Column: Rsk Exc**
+
+**11a. Column: Bank Vfc Lim**
+
+**12a. Column: Acc Vfc Lim**
+
+**13a. Column: rep Vfc Lim**
+
+**14a. Column: vrs msg**
+
+**15a. Column: fplrls**
+
+**16a. Column: State**
+
+**17a. Column: Cmnd**
+
+**18a. Column: INTRTL** (Intranet Runtime Library)
+
   This column is customised by the COBOL code, z_bnk_cust_routing_string.cob, (where " bnk " represents the three letters of the bank).
   Based on the parameters provided to this program, it will return a string with 32 positions (more or less depending on the bank's implementation).
   Example:
@@ -135,11 +155,15 @@ SWF = Coming from a source SWIFT
 ![image](https://github.com/user-attachments/assets/4fc111dc-49e6-496f-b381-4465425232ad)
 
 
-19a. Column: Bank 
-20a. Column: Location
-21a. Column: Qname
-22a. Column: Bank
-23a. Column: Prtq
+**19a. Column: Bank **
+
+**20a. Column: Location**
+
+**21a. Column: Qname**
+
+**22a. Column: Bank**
+
+**23a. Column: Prtq**
 
 
 
