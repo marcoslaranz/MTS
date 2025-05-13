@@ -1,4 +1,3 @@
-```md
 # Debugging MTS Java on Linux
 
 We can utilise several options for the inaugural MTS process. Below, I will go over some of the options I have employed.
@@ -54,4 +53,13 @@ main[1] set var=VALUE
 main[1] print var
 main[1] next
 ```
-```
+
+## Option 4. Using Eclipse IDE.
+
+### You can add the plugin from Heirloom Computing, which will allow you to use the Eclipse debugger as if it were a standard IDE. This enables you to set breakpoints, navigate through your code, view variables, and examine the process stack, among other options.
+
+  https://marketplace.eclipse.org/content/elastic-cobol%E2%84%A2#:~:text=Elastic%20COBOL%20is%20a%20component%20of%20Heirloom%C2%AE%20which,batch%20mainframe%20workloads%20as%20100%25%20cloud-native%20Java%20applications.
+
+Hairloon allows you to learn how to use it with free training and provides an easy-to-follow license during the training.
+
+![image](https://github.com/user-attachments/assets/67cae328-1b09-4568-9159-6b022891052b)
