@@ -1,4 +1,4 @@
-**Installing MTS in a VirtualBox VM.**
+# **Installing MTS in a VirtualBox VM.**
 
 **Version control**
 
