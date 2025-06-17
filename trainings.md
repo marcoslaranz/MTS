@@ -31,5 +31,5 @@ Let me help you confidently master topics like:
 
 ---
 
-📧 **Email:** your.email@example.com  
-📅 **Book a session:** [your-calendly-link-here]  
+📧 **Email:** marcosbrandino@hotmail.com  
+📅 **Book a session:** [https://calendly.com/marcosbrandino]  
